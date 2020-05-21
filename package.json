@@ -1,0 +1,23 @@
+{
+  "name": "myportafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001bhtml)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReginaOrozco/reginaorozco.github.io.git"
+  },
+  "author": "Regina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReginaOrozco/reginaorozco.github.io/issues"
+  },
+  "homepage": "https://github.com/ReginaOrozco/reginaorozco.github.io#readme",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
