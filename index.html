@@ -4,76 +4,238 @@
 <head>
   <meta charset="UTF-8">
   <title>Regina Orozco</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel= "icon" href= "images/rocket-launch.png" type= "png">
+  <link rel= "icon" href= "images/launch.png" type= "png">
 </head>
   <body>
-    <!-- SECCIÓN ABOUT ME -->
-    <div class= "block parallax image">
-      <div class= "container">
-        <h1>ABOUT ME</h1>
+    <header>
+      <div class= "menu-toggler">
+        <div class= "bar half start"></div>
+        <div class= "bar"></div>
+        <div class= "bar half end"></div>
       </div>
-    </div>
-
-    <div class= "block">
-      <div class= "container">
-        <!--<h2>ABOUT ME</h2>-->
-        <p>¡Hola! Mi nombre es Regina Orozco a.k.a. Reggie. Estudié Gastronomía pero mi pasión por la 
-          tecnología me trajo al mundo del desarrollo de software. Aunque en un principio trabajé 
-          como project manager, el UX design es algo que también me apasiona. Soy fanática de la 
-          comida italiana, los videojuegos y los libros de futuros distópicos. 
-          Orgullosamente originaria de la tierra de la torta ahogada.
-        </p>
+      <nav class= "top-nav">
+        <ul class= "nav-list">
+          <li>
+            <a href= "index.html" class= "nav-link">Home</a>
+          </li>
+          <li>
+            <a href= "#about" class= "nav-link">About</a>
+          </li>
+          <li>
+            <a href= "#services" class= "nav-link">Services</a>
+          </li>
+          <li>
+            <a href= "#portfolio" class= "nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href= "#experience" class= "nav-link">Experience</a>
+          </li>
+          <li>
+            <a href= "#contact" class= "nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class= "landing-text">
+        <h1>Regina Orozco</h1>
+        <h6>Project manager and UX Designer</h6>
       </div>
-    </div>
-
-    <!-- SECCIÓN SERVICIOS -->
-    <div class= "block parallax image">
+    </header>
+    
+    <section class= "about" id= "about">
       <div class= "container">
-        <h1>SERVICES</h1>
+        <div class= "profile-img">
+          <img src= "images/profile.png" alt= "">
+        </div>
+        <div class= "about-details">
+          <div class= "about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>BLA BLA BLA BLA BLA</p>
+        </div>
+        <div class= "social-media">
+          <ul class= "nav-list">
+            <li>
+              <a href= "#" class= "icon-link">
+                <i class= "fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href= "#" class= "icon-link">
+                <i class= "fab fa-twitter-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href= "#" class= "icon-link">
+                <i class= "fab fa-dribble-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class= "block">
+    <section class= "services" id= "services">
       <div class= "container">
-        <p>Los servicios que ofrezco son project management y UX design research</p>
+        <div class= "section-heading">
+          <h1>Services</h1>
+          <h6>What I can do for you</h6>
+        </div>
+        <div class= "my-skills">
+          <div class= "skill">
+            <div class= "icon-container">
+              <i class= "fas fa-layer-group"></i>
+            </div>
+            <h1>Web design</h1>
+            <p>
+              Bla bla bla bla bla design
+              Bla bla bla bla bla design
+            </p>
+          </div>
+          <div class= "skill">
+            <div class= "icon-container">
+              <i class= "fas fa-code-group"></i>
+            </div>
+            <h1>Web development</h1>
+            <p>
+              Bla bla bla bla bla development
+              Bla bla bla bla bla development
+            </p>
+          </div>
+          <div class= "skill">
+            <div class= "icon-container">
+              <i class= "fas fa-chart-group"></i>
+            </div>
+            <h1>Product strategy</h1>
+            <p>
+              Bla bla bla bla bla product strategy
+              Bla bla bla bla bla product strategy
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- SECCIÓN PROYECTOS -->
-    <div class= "block parallax image">
+    <section class= "portfolio" id= "portfolio">
       <div class= "container">
-        <h1>PROJECTS</h1>
+        <div class= "section-heading">
+          <h1>Portfolio</h1>
+          <h6>View some of my recent work</h6>
+        </div>
+        <div class= "portfolio-item">
+          <div class= "portfolio-img">
+            <img src= "images/portfolio.png" alt= "">
+          </div>
+          <div class= "portfolio-description">
+            <h6>Web development</h6>
+            <h1>Blog website</h1>
+            <p>
+              Bla bla bla bla bla blog website
+            </p>
+            <a href= "#" class= "cta">View details</a>
+          </div>
+        </div>
+        <div class= "portfolio-item">
+          <div class= "portfolio-description">
+            <h6>Web design</h6>
+            <h1>Product layout</h1>
+            <p>
+              Bla bla bla bla bla blog website
+            </p>
+            <a href= "#" class= "cta">View details</a>
+          </div>
+          <div class= "portfolio-img">
+            <img src= "images/portfolio2.jpg" alt= "">
+          </div>
+        </div>
+        <div class= "portfolio-item">
+          <div class= "portfolio-img">
+            <img src= "images/portfolio3.jpg" alt= "">
+          </div>
+          <div class= "portfolio-description">
+            <h6>Web design</h6>
+            <h1>Product sketch</h1>
+            <p>
+              Bla bla bla bla bla blog website
+            </p>
+            <a href= "#" class= "cta">View details</a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class= "block">
+    <section class= "experience" id= "experience">
       <div class= "container">
-        <p>Éstos son mis proyectos</p>
+        <div class= "section-heading">
+          <h1>Work experience</h1>
+          <h6>Past and current job</h6>
+        </div>
+        <div class= "timeline">
+          <ul>
+            <li class= "date" data-date= "2019">
+              <h1>Mifiel</h1>
+              <p>
+                Bla bla bla bla bla blog website
+              </p>
+            </li>
+            <li class= "date" data-date= "2018">
+              <h1>Lobbyfix by Regiztra</h1>
+              <p>
+                Bla bla bla bla bla blog website
+              </p>
+            </li>
+            <li class= "date" data-date= "2017 - 2018">
+              <h1>Agencia espacial</h1>
+              <p>
+                Bla bla bla bla bla blog website
+              </p>
+            </li>
+            <li class= "date" data-date= "2016 - 2017">
+              <h1>KaraOkulta</h1>
+              <p>
+                Bla bla bla bla bla blog website
+              </p>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <!-- SECCIÓN CONTACTO -->
-    <!--<div class= "block parallax image">
+    </section>
+    
+    <section class= "Contact" id= "contact">
       <div class= "container">
-        <h1>CONTACT</h1>
+        <div class= "section-heading">
+          <h1>Contact</h1>
+          <h6>Let's work together</h6>
+        </div>
+        <form action= "">
+          <label for= "name">Name:</label>
+          <input type= "text" id= "name" name= "name" placeholder= "Enter your name..." required>
+          <label for= "email">Email:</label>
+          <input type= "email" id= "email" name= "email" placeholder= "Enter your email..." required>
+          <label for= "service">Services:</label>
+          <select name= "services" id= "service">
+            <option value= "">Web design</option>
+            <option value= "">Web development</option>
+            <option value= "">Web design/development</option>
+          </select>
+          <label for= "subject">Subject:</label>
+          <textarea name= "subject" id= "subject" cols= "10" rows= "10"></textarea>
+          <input type= "submit" value= "Submit">
+        </form>
       </div>
-    </div>
+    </section>
 
-    <div class= "bblock">
-      <div class= "container">
-        <p>Aquí va un formulario de contacto</p>
+    <footer class= "copyright">
+      <div class= "up" id= "up">
+        <i class= "fas fa-chevron-up"></i>
+        <p>&copy; 2020 Made with ❤️ by Regina Orozco</p>
       </div>
-    </div>-->
+    </footer>
 
-      <footer>
-        <p>
-          Copyright 2020 | Contact
-          <a href = "mailto: regina.orozco91@gmail.com? subject= "Hello Regina"">regina.orozco91@gmail.com</a>
-            | Created with ❤️ by <a>Regina Orozco</a>
-         </p>
-      </footer>
+      <script src= "https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src= "main.js"></script>
   </body>
 </html>
