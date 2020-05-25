@@ -2,3 +2,36 @@ body{
     font-family: raleway;
     color: rosybrown;
 }
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bloque h2{
+    margin-bottom: 20px;
+}
+
+.bloque h1{
+    text-align: center;
+    margin: 0;
+    font-size: 160px;
+    line-height: 600px;
+}
+
+.bloque p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.bloque.parallax{
+    height: 800px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax.image{
+    background-image: url("stars.jpg")
+}
