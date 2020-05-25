@@ -1,6 +1,7 @@
 body{
     font-family: raleway;
     color: rosybrown;
+    background-color: #1e214d;
 }
 
 .container{
@@ -8,19 +9,20 @@ body{
     margin: 0 auto;
 }
 
-.bloque h1{
+.block h1{
     text-align: center;
     margin: 0;
     font-size: 160px;
     line-height: 600px;
 }
 
-.bloque p{
+.block p{
+    text-align: justify;
     margin-bottom: 20px;
     font-size: 20px;
 }
 
-.bloque.parallax{
+.block.parallax{
     height: 800px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -29,5 +31,10 @@ body{
 }
 
 .parallax.image{
-    background-image: url("stars.jpg")
+    background-image: url("images/stars.jpg")
 }
+
+/*footer a:hover{
+    color: rosybrown;
+    text-decoration: none;
+}*/
