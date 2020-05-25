@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ReginaOrozco/reginaorozco.github.io#readme",
   "dependencies": {
+    "jquery": "^3.5.1",
     "serve": "^11.3.0"
   }
 }
