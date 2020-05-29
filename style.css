@@ -129,7 +129,7 @@ li{
 }
 
 .nav-link{
-    font-family:"Playlist Script", sans-serif;
+    font-family:"Playlist Script";
     font-size: 5rem;
     padding: 1rem;
 }
@@ -208,7 +208,7 @@ li{
 
 .landing-text h1{
     font-size: 20rem;
-    font-family:"Playlist Script", sans-serif;
+    font-family:"Playlist Script";
     background: linear-gradient(to bottom, #ffd89b, #19547b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -554,6 +554,7 @@ input[type= "submit"]:hover{
 
     .nav-link{
         font-size: 4.5rem;
+        transition: color 650ms
     }
 
     .about-heading h1{
