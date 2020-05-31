@@ -267,6 +267,10 @@ li{
     transition: color 650ms;
 }
 
+.fa-linkedin:hover{
+    color: #0e76a8;
+}
+
 .fa-github-square:hover{
     color: #000000;
 }
@@ -276,12 +280,8 @@ li{
     border-radius: .8rem;
 }
 
-.fa-twitter-square:hover{
-    color: #38a1f3;
-}
-
-.fa-instagram-square:hover{
-    color: #dd2a7b;
+.fa-envelope-square:hover{
+    color: #d44638;
 }
 /*End about*/
 
