@@ -443,7 +443,9 @@ li{
 }
 /*End timeline*/
 
+
 /*Start contact*/
+/*
 .contact{
     background-color: #221e3f;
 }
@@ -484,8 +486,9 @@ input[type= "submit"]:hover{
     color: #221e22;
     background-color: #ffd89b;
 }
-
+*/
 /*End contact*/
+
 
 /*Start footer*/
 .copyright{
@@ -589,6 +592,10 @@ input[type= "submit"]:hover{
         font-size: 4rem;
     }
 
+    .portfolio-description{
+        text-align:justify;
+    }
+
     .timeline ul{
         margin: 0 0 0 auto;
     }
@@ -650,11 +657,11 @@ input[type= "submit"]:hover{
     .timeline .date::before{
         font-size: 1.4rem;
     }
-
+/*
     form{
         width: 100%;
     }
-
+*/
     .up{
         right: 2rem;
     }
