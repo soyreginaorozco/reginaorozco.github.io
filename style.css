@@ -12,10 +12,7 @@ html{
 }
 
 body{
-    width: 100%;
-    height: 100%;
-    background: url(images/blue-bg.jpg) no-repeat center fixed;
-    background-size: cover;
+    background-color: #003466;
 }
 
 section{
@@ -109,7 +106,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #16162d;
+    background-color: #00284D;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -438,7 +435,7 @@ li{
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #313534;
+    background-color: #00284D;
 
 }
 /*End timeline*/
@@ -494,7 +491,7 @@ input[type= "submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #16162d;
+    background-color: #00284D;
     padding: 2rem 0;
     position: relative;
 }
@@ -542,8 +539,7 @@ input[type= "submit"]:hover{
 
 @media screen and (max-width: 768px) {
     body{
-        background: url(images/blue-bg2.jpg) no-repeat center fixed;
-        background-size: cover;
+        background-color: #003466;
     }
 
     .landing-text h1{
