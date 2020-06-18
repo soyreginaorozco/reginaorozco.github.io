@@ -669,3 +669,9 @@ input[type= "submit"]:hover{
     src: url(fonts/playlist_script-webfont.woff2),
          url(fonts/playlist_script-webfont.woff);
 }
+
+@font-face {
+    font-family: "Raleway";
+    src: url(fonts/raleway-webfont.woff2),
+         url(fonts/raleway-webfont.woff);
+}
