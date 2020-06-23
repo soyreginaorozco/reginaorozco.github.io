@@ -279,6 +279,10 @@ li{
 .fa-envelope-square:hover{
     color: #d44638;
 }
+
+.fa-file:hover{
+    color: #000000;
+}
 /*End about*/
 
 
